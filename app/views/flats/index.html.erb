@@ -1,0 +1,5 @@
+some kind of card div holder like css grid
+<% @flats.each do |flat| %>
+  <br>
+  <%= link_to flat.name, flat_path(flat.id) %>
+<% end %>
